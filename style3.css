@@ -1,0 +1,24 @@
+body{
+  background-color: black;
+}
+
+.image{
+  width:100%;
+  position:absolute;
+  display:flex;
+	justify-content:space-between;
+  align-items:center;
+
+}
+
+.gif1 img{
+  width:380px;
+}
+
+.gif2 img{
+  width:380px;
+}
+
+.gif3 img{
+  width:380px;
+}

@@ -1,0 +1,83 @@
+body{
+  background-image: url("image/paula.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+
+}
+
+.piece1 img{
+  position:absolute;
+  height:788px;
+  width:560px;
+  right:61%;
+  opacity: 90%;
+
+}
+
+.piece2 img{
+  position:absolute;
+  height:788px;
+  width:1300px;
+  left:9.6%;
+  opacity: 90%;
+}
+
+.piece3 img{
+  position:absolute;
+  height:788px;
+  left:15.6%;
+  opacity: 90%;
+}
+
+.piece4 img{
+  position:absolute;
+  height:788px;
+  opacity: 90%;
+  left:15.6%;
+}
+
+.phrase1{
+  font-style: garamond;
+  position: absolute;
+  left:43%;
+}
+
+.phrase2{
+  font-style: garamond;
+  position: absolute;
+  left:54.5%;
+  line-height: 20%;
+  top:17%;
+}
+
+.phrase3{
+  font-style: garamond;
+  position: absolute;
+  left:61%;
+  line-height: 20%;
+  top:84%;
+}
+
+.phrase4{
+  font-style: garamond;
+  position: absolute;
+  left:80%;
+  line-height: 20%;
+  top:60%;
+}
+
+.phrase5{
+  font-style: garamond;
+  position: absolute;
+  right:78%;
+  line-height: 20%;
+  top:66%;
+}
+
+.picture5 img{
+  position:absolute;
+  height:117%;
+  width:110%;
+  left:-3.6%;
+  bottom:-17%;
+}

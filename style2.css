@@ -1,0 +1,45 @@
+body {
+ background-image: url("image/interview.png");
+ background-size: cover;
+background-attachment: fixed;
+}
+
+.image1 img{
+  position:absolute;
+  height:17%;
+  top:20.5%;
+  left:18%;
+  opacity: 60%;
+}
+
+.image2 img{
+  position:absolute;
+  height:18%;
+  top:71%;
+  left:65.5%;
+  opacity: 60%;
+}
+
+.image3 img{
+  position:absolute;
+  height:17%;
+  top:23.5%;
+  left:92.5%;
+  opacity: 60%;
+}
+
+
+
+.image5 img{
+  position:absolute;
+  height:18%;
+  top:72%;
+  left:18%;
+}
+
+.image6 img{
+  position:absolute;
+  height:17%;
+  top:23.5%;
+  left:92.5%;
+}
