@@ -1,0 +1,155 @@
+body{
+  background-image: url("image/backs.png");
+  background-size: cover;
+  overflow:hidden;
+}
+
+
+
+.image1  img{
+  position: absolute;
+  height:20%;
+  left:10%;
+  top:40%;
+  opacity:0;
+  cursor: cell;
+}
+
+
+.image1 img:hover {
+  position: absolute;
+  height:55%;
+  left:56.3%;
+  top:22%;
+  opacity:100;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 5px;
+  cursor: cell;
+
+}
+
+
+
+.image2 img{
+  position: absolute;
+  height:40%;
+  left:10%;
+  opacity:0;
+  cursor: cell;
+}
+
+.image2 img:hover {
+  position: absolute;
+  height:80%;
+  bottom:10%;
+  left:61%;
+  opacity:100;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.image3 img{
+  position: absolute;
+  height:40%;
+  left:30%;
+  opacity:0;
+  cursor: cell;
+}
+
+.image3 img:hover{
+  position: absolute;
+  height:80%;
+  left:61%;
+  bottom:10%;
+  opacity:100;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.line1{
+  font-size: 0.2em;
+  position: absolute;
+  color:white;
+  bottom:10%;
+  left:30%;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 8px;
+  opacity: 0;
+  cursor: cell;
+}
+
+.line1:hover{
+  font-size: 1.3em;
+  font-family: hypatia-sans-pro, sans-serif;
+font-weight: 300;
+font-style: normal;
+  position: absolute;
+  color:white;
+  bottom:19%;
+  left:61%;
+  /* border: 1px solid white;
+  border-radius: 4px;
+  padding: 8px; */
+  opacity:100;
+}
+
+.line2{
+  font-size: 0.2em;
+  position: absolute;
+  color:white;
+  bottom:19.5%;
+  left:15%;
+   border: 1px solid white;
+  border-radius: 4px;
+  padding: 8px;
+  opacity:0;
+  cursor: cell;
+}
+
+.line2:hover{
+  font-size: 1.3em;
+  font-family: hypatia-sans-pro, sans-serif;
+font-weight: 300;
+font-style: normal;
+  position: absolute;
+  color:white;
+  bottom:19.5%;
+  left:62%;
+   border: 1px solid white;
+  border-radius: 4px;
+  padding: 8px;
+  opacity:100;
+}
+
+.line3{
+  font-size: 0.1em;
+  position: absolute;
+  color:white;
+  bottom:7.5%;
+  left:3%;
+   border: 1px solid white;
+  border-radius: 4px;
+  padding: 8px;
+  opacity:0;
+  cursor: cell;
+}
+
+.line3:hover{
+  font-size: 1.3em;
+  font-family: hypatia-sans-pro, sans-serif;
+font-weight: 300;
+font-style: normal;
+  position: absolute;
+  color:white;
+  bottom:7.5%;
+  left:61.5%;
+   border: 1px solid white;
+  border-radius: 4px;
+  padding: 8px;
+  opacity:100;
+}

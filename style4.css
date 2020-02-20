@@ -1,11 +1,12 @@
 body{
-  background-image: url("image/paula.jpg");
+  background-image: url("image/newback.png");
   background-size:cover;
   background-repeat: no-repeat;
+  overflow: hidden;
 
 }
 
-.piece1 img{
+/* .piece1 img{
   position:absolute;
   height:788px;
   width:560px;
@@ -19,7 +20,7 @@ body{
   height:788px;
   width:1300px;
   left:9.6%;
-  opacity: 90%;
+  opacity: 80%;
 }
 
 .piece3 img{
@@ -34,18 +35,27 @@ body{
   height:788px;
   opacity: 90%;
   left:15.6%;
+} */
+.together{
+  font-size: 1.3em;
+  font-family: hypatia-sans-pro, sans-serif;
+font-weight: 300;
+font-style: normal;
 }
+
 
 .phrase1{
   font-style: garamond;
   position: absolute;
   left:43%;
+  top:1%;
+  line-height:20%;
 }
 
 .phrase2{
   font-style: garamond;
   position: absolute;
-  left:54.5%;
+  left:52%;
   line-height: 20%;
   top:17%;
 }
@@ -53,17 +63,17 @@ body{
 .phrase3{
   font-style: garamond;
   position: absolute;
-  left:61%;
+  left:58%;
   line-height: 20%;
-  top:84%;
+  top:87%;
 }
 
 .phrase4{
   font-style: garamond;
-  position: absolute;
-  left:80%;
+  position:absolute;
+  left:82%;
   line-height: 20%;
-  top:60%;
+  top:63%;
 }
 
 .phrase5{
@@ -74,10 +84,52 @@ body{
   top:66%;
 }
 
-.picture5 img{
+.picture5 a img{
   position:absolute;
-  height:117%;
-  width:110%;
-  left:-3.6%;
-  bottom:-17%;
+  height:25%;
+  left:29%;
+  bottom:9.6%;
+  opacity:0;
+  cursor: cell;
+}
+.picture5 a:hover img{
+  position:absolute;
+  height:24.5%;
+  left:29.1%;
+  bottom:10%;
+  opacity:100;
+}
+
+.picture6 a img{
+  position:absolute;
+  height:20%;
+  left:39%;
+  bottom:38%;
+  opacity:0;
+  cursor: cell;
+}
+
+.picture6 a:hover img{
+  position:absolute;
+  height:19.5%;
+  left:39.5%;
+  bottom:38.5%;
+  opacity:100;
+}
+
+.picture7 a img{
+  position:absolute;
+  height:18%;
+  left:32%;
+  bottom:61.5%;
+  opacity:0;
+  cursor: cell;
+}
+
+.picture7 a:hover img{
+  position:absolute;
+  height:17.8%;
+  left:32%;
+  bottom:61.5%;
+  opacity:100;
 }

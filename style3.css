@@ -1,5 +1,6 @@
 body{
   background-color: black;
+  overflow:hidden;
 }
 
 .image{
@@ -7,18 +8,83 @@ body{
   position:absolute;
   display:flex;
 	justify-content:space-between;
-  align-items:center;
 
 }
 
 .gif1 img{
-  width:380px;
+  margin-top:12%;
+  width:400px;
+  filter: sepia(50%) grayscale(30%);
+cursor: cell;
+
 }
 
 .gif2 img{
-  width:380px;
+  margin-top:12%;
+  width:400px;
+  filter:sepia(50%) grayscale(50%);
+cursor: cell;
 }
 
 .gif3 img{
-  width:380px;
+  margin-top:12%;
+  width:400px;
+  filter:sepia(50%) grayscale(50%);
+cursor: cell;
 }
+
+
+
+/* .texts{
+  position: absolute;
+  overflow: hidden;
+ font: 14.2vw/100vh "hypatia sans";
+ line-height: 100%;
+ color:transparent;
+ backface-visibility: hidden;
+}
+
+span {
+  display: inline-block;
+  text-shadow: 0 0 0 whitesmoke;
+  color:black;
+  animation: smoky 5s 3s both;
+}
+
+span:nth-child(even){
+  animation-name: smoky-mirror;
+}
+
+@keyframes smoky {
+  60% {
+    text-shadow: 0 0 50px whitesmoke;
+  }
+  to {
+    transform:
+      translate3d(15rem,-8rem,0)
+      rotate(-40deg)
+      skewX(70deg)
+      scale(1.5);
+    text-shadow: 0 0 20px whitesmoke;
+    opacity: 0;
+  }
+}
+
+@keyframes smoky-mirror {
+  60% {
+    text-shadow: 0 0 50px whitesmoke; }
+  to {
+    transform:
+      translate3d(18rem,-8rem,0)
+      rotate(-40deg)
+      skewX(-70deg)
+      scale(2);
+     text-shadow: 0 0 20px whitesmoke;
+    opacity: 0;
+  }
+}
+
+@for $item from 1 through 21 {
+  span:nth-of-type(#{$item}){
+    animation-delay: #{(3 + ($item/10))}s;
+  } */
